@@ -6,6 +6,8 @@ public class Vehicle{
 		pe.Start();
 		DieselEngine de = new DieselEngine();
 		de.Start();
+		Electricengine EE = new Electricengine();
+		EE.start();
 				
 	}
 }
